@@ -1,0 +1,3149 @@
+
+@font-face{
+    font-family: light1;
+    src: url(fonts/11451.otf);
+}
+@font-face{
+    font-family: Raleway;
+    src: url(fonts/Raleway-ExtraLight.ttf);
+}
+@font-face{
+    font-family: Raleway-medium;
+    src: url(fonts/Raleway-Medium.ttf);
+}
+
+
+
+body{
+    margin:0;
+    padding:0;
+}
+.tab1{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.aboveline1{
+    position: relative;
+    margin-bottom: 40px;
+    top: 100px;
+    padding: 2%;
+    width: 60%;
+    left: 18%;
+    background: white;
+    box-shadow: 4px 4px 10px 1px black;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    font-family: "Raleway";
+}
+.aboveline1:hover{
+    left: 17.8%;
+    top: 98px;
+    box-shadow: 10px 10px 15px 1px black;
+}
+
+.aboveline2{
+    position: relative;
+    margin-bottom: 40px;
+    top: 200px;
+    padding: 2%;
+    width: 60%;
+    left: 29%;
+    background: white;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    font-family: "Raleway";
+    box-shadow: 4px 4px 10px 1px black;
+}
+.aboveline2:hover{
+    left: 28.8%;
+    top: 198px;
+    box-shadow: 10px 10px 15px 1px black;
+}
+.aboveline3{
+    position: relative;
+    margin-bottom: 40px;
+    padding: 2%;
+    width: 96%;
+    left: 0%;
+    background: rgba(255, 255, 255, 0);
+    transition-duration: .3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    font-family: "Raleway";
+    border: 1px solid #555555;
+}
+.aboveline3:hover{
+    background: rgb(255, 255, 255);
+}
+
+.font1{
+    font-family: light1;
+}
+.text1{
+    font-size: 30px;
+}
+.text4{
+    font-size: 50px;
+}
+.right10{
+    position: absolute;
+    right: 10px;
+}
+.right150{
+    position: absolute;
+    right: 200px;
+}
+.bottom10{
+    position: absolute;
+    bottom: 10px;
+}
+
+.text2{
+    font-size: 15px;
+    color: #555555;
+}
+.text3{
+    font-size: 30px;
+}
+
+.hand{
+    cursor: pointer;
+    user-select: none;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    top: 0;
+    background: white;
+    color: #555555;
+    z-index: 3;
+    overflow: hidden;
+    box-shadow: 0 1px 15px 5px black;
+}
+
+.headersearch{
+    position: absolute;
+    left: 5%;
+    top: 8px;
+    font-family: "Raleway";
+    font-size: 20px;
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 30px;
+    border-bottom: 1px solid #555555;
+    background: transparent;
+    color: #555555;
+}
+.headersearch::placeholder{
+    color: #555555;
+}
+
+.headertype{
+    position:absolute;
+    right: 54.9%;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    top: 5px;
+    cursor: pointer;
+}
+
+.headersearchsubmit{
+    position: absolute;
+    left: 1%;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.headersearchsubmit:hover{
+    transform: rotate(-90deg);
+}
+
+.extendedsearch{
+    position: absolute;
+    left: 50%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    top: 12px;
+}
+.extendedsearch:hover{
+    border-bottom: 1px solid #555555;
+}
+
+.headeruser{
+    position: absolute;
+    left: 90%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    top: 12px;
+}
+.headeruser:hover{
+    border-bottom: 1px solid #555555;
+}
+
+.logo{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 200px;
+    height: 60px;
+    background-size: cover;
+    background-image: url("images/logo.png");
+}
+
+.indentation{
+    width: 100%;
+    height: calc(100% - 28px);
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+#map{
+    width: 100%;
+    height: 200px;
+}
+
+.keyskill{
+    position: relative;
+    top: 5px;  
+    background: rgb(223, 223, 223);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.down1{
+    position: relative;
+    top: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.forsearch{
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    left: 30%;
+}
+
+.prof1{
+    list-style-type: none;
+    margin:0;
+    margin-bottom: 10px;
+}
+.searchprof1{
+    list-style-type: none;
+    margin:0;
+    margin-bottom: 10px;
+}
+.prof{
+    border-radius: 5px;
+    padding: 5px;
+    cursor: default;
+    transition-property: padding-left background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.prof:hover{
+    background: rgb(241, 241, 241);
+    padding-left: 25px;
+}
+.searchprof{
+    border-radius: 5px;
+    padding: 5px;
+    cursor: default;
+    transition-property: padding-left background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.searchprof:hover{
+    background: rgb(241, 241, 241);
+    padding-left: 25px;
+}
+
+.prof1s{
+    list-style-type: none;
+    margin:0;
+    margin-bottom: 10px;
+}
+.profs{
+    border-radius: 5px;
+    padding: 5px;
+    cursor: default;
+    transition-property: padding-left background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.profs:hover{
+    background: rgb(241, 241, 241);
+    padding-left: 25px;
+}
+
+.fortextarea{
+    resize: none;
+    height: 150px;
+}
+
+.forkey{
+    background: rgb(223, 223, 223);
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.plus{
+    cursor: pointer;
+    user-select: none;
+}
+.plus:hover{
+    border-bottom: 1px solid #555555;
+}
+.plusedu{
+    cursor: pointer;
+    user-select: none;
+}
+.plusedu:hover{
+    border-bottom: 1px solid #555555;
+}
+.pluscurs{
+    cursor: pointer;
+    user-select: none;
+}
+.pluscurs:hover{
+    border-bottom: 1px solid #555555;
+}
+.plusjob{
+    cursor: pointer;
+    user-select: none;
+}
+.plusjob:hover{
+    border-bottom: 1px solid #555555;
+}
+.inp{
+    display: inline;
+    margin-left: 20px;
+}
+.prof3{
+    display: none;
+}
+.sfer{
+    margin-bottom: 5px;
+}
+
+
+.vniz{
+    padding-top: 20px;
+}
+.vysot{
+    position: relative;
+    display: inline-block;
+    height: 29px;
+    top: -6px;
+}
+
+.forinput{
+    outline: none;
+    border: none;
+    text-align: right;
+}
+.textcenter{
+    text-align: center;
+}
+
+.container{
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+}
+
+.maintypes{
+    position: absolute;
+    top: 100%;
+    background-image: url("images/fortypes.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+.mainfindtofind{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 150px;
+    color: white;
+    font-family: "Raleway";
+    text-shadow: 2px 1px 1px black;
+}
+.mainheader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+.mainheadervac{
+    position: absolute;
+    top: 0;
+    left: 17%;
+    font-family: "Raleway";
+    font-size: 30px;
+    color: white;
+    transition-duration: 3.3s;
+    cursor: pointer;
+}
+.mainheadervac:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: white;
+    transition-duration: .3s;
+}
+.mainheadervac:hover:after{
+    width: 100%;
+}
+.mainheaderres{
+    position: absolute;
+    top: 0;
+    left: 37%;
+    font-family: "Raleway";
+    font-size: 30px;
+    color: white;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.mainheaderres:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: white;
+    transition-duration: .3s;
+}
+.mainheaderres:hover:after{
+    width: 100%;
+}
+.mainheadercom{
+    position: absolute;
+    top: 0;
+    left: 57%;
+    font-family: "Raleway";
+    font-size: 30px;
+    color: white;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.mainheadercom:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: white;
+    transition-duration: .3s;
+}
+.mainheadercom:hover:after{
+    width: 100%;
+}
+.mainheaderacc{
+    position: absolute;
+    top: 0;
+    left: 77%;
+    font-family: "Raleway";
+    font-size: 30px;
+    color: white;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.mainheaderacc:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: white;
+    transition-duration: .3s;
+}
+.mainheaderacc:hover:after{
+    width: 100%;
+}
+.mainsearchform{
+    position: absolute;
+    top: 55%;
+    left: 38%;
+    box-shadow: 2px 2px 10px 1px black;
+    border-radius: 5px;
+}
+
+.mainsearchform > .textbox {
+    outline: 0;
+    height: 50px;
+    width: 400px;
+    line-height: 42px;
+    padding: 0 16px;
+    background-color: rgba(255, 255, 255, 0.616);
+    color: rgb(87, 87, 87);
+    border: 0;
+    float: left;
+    border-radius: 4px 0 0 4px;
+    transition-duration: 0.3s;
+}
+  
+.mainsearchform > .textbox:focus {
+    outline: 0;
+    background-color: #FFF;
+  }
+  
+.mainsearchform > .button {
+    outline: 0;
+    background: none;
+    background-color: rgb(55, 66, 71);
+    float: left;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 42px;
+    border: 0;
+    color: #FFF;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 16px;
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+  
+.mainsearchform > .button:hover {
+    background-color: #2BBCAB;
+}
+
+.center{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Raleway";
+    opacity: 0;
+    transition-duration: 0.3s;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+.center1{
+    left: 560px;
+    top: 240px;
+}
+.center2{
+    left: 615px;
+    top: 365px;
+}
+.center3{
+    left: 400px;
+    top: 400px;
+}
+.center4{
+    left: 555px;
+    top: 570px;
+}
+.center5{
+    left: 810px;
+    top: 585px;
+}
+.center6{
+    left: 625px;
+    top: 470px;
+}
+.center7{
+    left: 1160px;
+    top: 435px;
+}
+.center8{
+    left: 950px;
+    top: 390px;
+}
+.center9{
+    left: 773px;
+    top: 370px;
+}
+.center10{
+    left: 1137px;
+    top: 275px;
+}
+.center11{
+    left: 907px;
+    top: 212px;
+    width: 200px;
+}
+.center12{
+    left: 1022px;
+    top: 548px;
+}
+.mainfield{
+    transition-duration: 0.3s;
+    border: #1E1E1E 10px solid;
+    cursor: pointer;
+}
+
+
+.mainfield1{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 250px;
+    height: 125px;
+    background-image: url("images/auto.jpeg");
+}
+.mainfield2{
+    position: absolute;
+    top: 325px;
+    left: 575px;
+    width: 175px;
+    height: 100px;
+    background-image: url("images/business.jpg");
+}
+.mainfield6{
+    position: absolute;
+    top: 425px;
+    left: 575px;
+    width: 175px;
+    height: 100px;
+    background-image: url("images/medicine.jpg");
+}
+.mainfield3{
+    position: absolute;
+    top: 325px;
+    left: 375px;
+    width: 200px;
+    height: 200px;
+    background-image: url("images/IT.jpg");
+}
+.mainfield4{
+    position: absolute;
+    top: 525px;
+    left: 475px;
+    width: 275px;
+    height: 125px;
+    background-image: url("images/art.jpg");
+}
+.mainfield9{
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    width: 150px;
+    height: 250px;
+    background-image: url("images/insurance.jpg");
+}
+.mainfield5{
+    position: absolute;
+    top: 500px;
+    left: 750px;
+    width: 200px;
+    height: 200px;
+    background-image: url("images/marketing.png");
+}
+.mainfield8{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    width: 200px;
+    height: 200px;
+    background-image: url("images/building.jpeg");
+}
+.mainfield11{
+    position: absolute;
+    top: 175px;
+    left: 900px;
+    width: 200px;
+    height: 125px;
+    background-image: url("images/tourism.jpg");
+}
+.mainfield12{
+    position: absolute;
+    top: 500px;
+    left: 950px;
+    width: 250px;
+    height: 125px;
+    background-image: url("images/lawying.jpg");
+}
+.mainfield7{
+    position: absolute;
+    top: 375px;
+    left: 1100px;
+    width: 250px;
+    height: 125px;
+    background-image: url("images/transporting.jpeg");
+}
+.mainfield10{
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+    width: 175px;
+    height: 175px;
+    background-image: url("images/education.jpg");
+}
+.masfields{
+    position: absolute;
+    left: 100px;
+}
+
+
+.mainlogreg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url("images/login.jpeg");
+    background-size: cover;
+}
+
+.logreg{
+    position: absolute;
+    left: calc(50% - 450px);
+    top: calc(50% - 300px);
+    width: 900px;
+    height: 600px;
+    background: white;
+    box-shadow: 8px 8px 15px 5px black;
+}
+
+.formlogin{
+    position: absolute;
+    left: 280px;
+    top: 30px;
+    transition-duration: 0.8s;
+}
+
+.formreguser{
+    position: absolute;
+    left: 60px;
+    top: 380px;
+    transition-duration: 0.8s;
+}
+
+.formregcom{
+    position: absolute;
+    left: 415px;
+    top: 390px;
+    transition-duration: 0.8s;
+}
+
+.inpt{
+    position: absolute;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-bottom: 1px #9b9b9b solid;
+    font-family: "Raleway";
+    color: #333333;
+    font-size: 20px;
+}
+
+.sbmt{
+    position: absolute;
+    border:none;
+    outline: none;
+    background: transparent;
+    color: #333333;
+    font-family: "Raleway";
+    font-size: 25px;
+    border-radius: 50px;
+    border: 1px #333333 solid;
+    height: 50px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.sbmt:hover{
+    color: white;
+    background: #555555;
+}
+
+.pos1{
+    top: 20px;
+}
+.pos2{
+    top: 80px;
+}
+.pos3{
+    width: 200px;
+    left: 65px;
+    top: 155px;
+}
+.pos3:hover{
+    left: 15px;
+    width: 300px;
+}
+
+.pos4{
+    top: -70px;
+}
+.pos5{
+    top: -10px;
+}
+.pos6{
+    left: 60px;
+    top: 55px;
+    font-size: 20px;
+}
+
+.pos7{
+    top: -80px;
+    left: 100px;
+}
+.pos8{
+    top: -20px;
+    left: 100px;
+}
+.pos9{
+    top: 40px;
+    left: 100px;
+}
+.pos10{
+    top: 100px;
+    left: 120px;
+    font-size: 20px;
+}
+
+.sliderlogin{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    left: 0;
+    background-image: url("images/loginslider.jpeg"); 
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+.logdelimeter{
+    position: absolute;
+    background: #555555;
+    height: 40%;
+    width: 1px;
+    left: 50%;
+    top: 55%;
+}
+
+.regbutton{
+    position: absolute;
+    top: 130px;
+    left: 345px;
+    height: 26px;
+    width: 200px;
+    color: white;
+    background: transparent;
+    border: 2px white solid;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+    font-family: "Raleway-medium";
+    cursor: pointer;
+    text-align: center;
+    padding-top: 7px;
+    user-select: none;
+    text-shadow: 1px 1px 1px black;
+}
+.regbutton:hover{
+    width: 250px;
+    left: 320px;
+}
+
+
+
+.backadd{
+    background-image: url("images/addback.jpeg");
+    background-repeat: repeat-y;
+}
+
+.addbottom{
+    position: relative;
+    top: 200px;
+    margin-bottom: 20px;
+    height: 10px;
+    width: 100%;
+    background: transparent;
+}
+
+.adddate{
+    position: absolute;
+    right: 2%;
+    bottom: 10%;
+}
+
+.addsalary{
+    position: absolute;
+    right: 2%;
+    top: 10%;
+}
+
+.addfind{
+    position: absolute;
+    top: 30px;
+    left: 20%;
+    font-family: "Raleway";
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+}
+
+.addsearch{
+    position: absolute;
+    top: 55px;
+    right: 20%;
+    font-family: "Raleway";
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 1px black;
+    cursor: pointer;
+}
+.addsearch:hover{
+    border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+.addsalary1{
+    position: absolute;
+    right: 8%;
+    top: 10%;
+}
+
+.noadds{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 70%;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 100px;
+    background: rgba(0, 0, 0, 0.233);
+    box-shadow: 0 0 20px 4px black;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.companyname{
+    font-size: 40px;
+}
+.companyline{
+    position: absolute;
+    top: 10%;
+    height: 80%;
+    right: 20%;
+    width: 1px;
+    background: #555555;
+}
+.companycount{
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 9%;
+    font-size: 50px;
+    font-family: "Arial";
+    color: #555555;
+}
+
+
+.backsearch{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("images/search.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.searchpage{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 18%;
+    left: 15%;
+    background: white;
+    box-shadow: 6px 6px 15px 2px black;
+}
+.searchmainword{
+    position: absolute;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    padding: 5px 0;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 25px;
+    top: 7%;
+    left: 2.8%;
+}
+.searchfield{
+    position: absolute;
+    color: #333333;
+    font-family: "Raleway";
+    padding: 5px;
+    font-size: 15px;
+    top: 7%;
+    left: 28%;
+    height: 263px;
+    width: 20%;
+    overflow: auto;
+}
+.searchfield::-webkit-scrollbar{
+    width: 7px;
+}
+.searchfield::-webkit-scrollbar-track{
+    background: transparent;
+}
+.searchfield::-webkit-scrollbar-thumb{
+    background: #888; 
+}
+.searchfield::-webkit-scrollbar-thumb:hover{
+    background: #555; 
+}
+.searchkeyskill{
+    position: absolute;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    padding: 5px 0;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 25px;
+    top: 22%;
+    left: 2.8%;
+}
+.searchregion{
+    position: absolute;
+    color: #333333;
+    font-family: "Raleway";
+    padding: 5px;
+    font-size: 15px;
+    top: 50%;
+    left: 80%;
+}
+.searchsalary{
+    position: absolute;
+    padding: 5px 0;
+    color: #555555;
+    font-family: "Raleway";
+    top: 37%;
+    left: 2.8%;
+}
+.searchsalaryinpt{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    font-size: 25px;
+    width: 195px;
+    padding: 5px 0;
+}
+.searchsalarycurr{
+    position: relative;
+    top: -1px;
+    left: -4px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    font-size: 25px;
+    padding: 5px 0;
+}
+.searchcompany{
+    position: absolute;
+    padding: 5px 0;
+    color: #555555;
+    font-family: "Raleway";
+    top: 52%;
+    left: 2.8%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    font-size: 25px;
+}
+.searchexp{
+    position: absolute;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+    top: 29%;
+    left: 54%;
+}
+.searchToE{
+    position: absolute;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+    top: 7%;
+    left: 54%;
+}
+.searchTT{
+    position: absolute;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+    top: 7%;
+    left: 80%;
+}
+.searchsort{
+    position: absolute;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+    top: 29%;
+    left: 80%;
+}
+.searchsbmt{
+    position: absolute;
+    outline: none;
+    border: none;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 20px;
+    top: 80%;
+    left: calc(50% - 125px);
+    border: 1px solid #555555;
+    background: transparent;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.searchsbmt:hover{
+    color: white;
+    background: #555555;
+}
+.searchline1{
+    position: absolute;
+    height: 60%;
+    background: #333333;
+    width: 1px;
+    left: 25%;
+    top: 5%;
+}
+.searchline2{
+    position: absolute;
+    height: 60%;
+    background: #333333;
+    width: 1px;
+    left: 50%;
+    top: 5%;
+}
+.searchline3{
+    position: absolute;
+    height: 60%;
+    background: #333333;
+    width: 1px;
+    left: 75%;
+    top: 5%;
+}
+.searchgender{
+    position: absolute;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+    top: 52%;
+    left: 28.3%;
+}
+.searchage{
+    position: absolute;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+    top: 52%;
+    left: 42%;
+}
+.searchsince{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 120%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+}
+.searchbefore{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 280%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+}
+
+
+
+.backaccount{
+    background-image: url("images/addback.jpeg");
+
+}
+.accinfores{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background: white;
+    box-shadow: 4px 0 10px 2px black;
+    padding: 20px;
+}
+.accname{
+    position: absolute;
+    top: 8%;
+    font-family: "Raleway";
+    font-size: 30px;
+    color: #555555;
+}
+.accacc{
+    position: absolute;
+    top: 11.5%;
+    font-family: "Raleway";
+    font-size: 15px;
+    color: #333333;
+}
+.accexit{
+    position: absolute;
+    top: 8%;
+    right: 9%;
+    font-family: "Raleway";
+    font-size: 30px;
+    color: #555555;
+    cursor: pointer;
+}
+.accexit:hover{
+    border-bottom: 1px solid #555555;
+}
+.accchangepass{
+    position: absolute;
+    top: 20%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    cursor: pointer;
+}
+.passes{
+    position: absolute;
+    top: 25%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    cursor: pointer;
+}
+.accold{
+    position: absolute;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+    color: #555555;
+}
+.accnew{
+    position: absolute;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    top: 200%;
+    font-family: "Raleway";
+    font-size: 15px;
+    color: #555555;
+}
+.accsbmt{
+    position: absolute;
+    outline: none;
+    border: none;
+    top: 35%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #555555;
+    transition-duration: .3s;
+    padding: 5px;
+}
+.accsbmt:hover{
+    color: white;
+    background: #555555;
+}
+.accrespos{
+    position: absolute;
+    top: 150px;
+    left: 29%;
+    font-family: "Raleway";
+    font-size: 40px;
+    color: white;
+}
+.accaddrespos{
+    position: absolute;
+    top: 150px;
+    left: 77%;
+    font-family: "Raleway";
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+.accaddrespos:hover{
+    border-bottom: 1px solid white;   
+}
+.forupdate{
+    position: absolute;
+    left: 38%;
+    bottom: 10%;
+}
+.forupdate:hover{
+    border-bottom: 1px solid #555555;
+}
+.fordelete{
+    position: absolute;
+    left: 53%;
+    bottom: 10%;
+}
+.fordelete:hover{
+    border-bottom: 1px solid #555555;
+}
+
+.accvacname{
+    position: absolute;
+    top: 18%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+}
+.accaccvac{
+    position: absolute;
+    top: 11.5%;
+    font-family: "Raleway";
+    font-size: 15px;
+    color: #333333;
+}
+.accvacinptname{
+    position: absolute;
+    top: 22%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+}
+.accvacchngname{
+    position: absolute;
+    top: 22.2%;
+    left: 70%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    cursor: pointer;
+}
+.accvacchngname:hover{
+    border-bottom: 1px solid #555555;
+}
+.accvacdesc{
+    position: absolute;
+    top: 30%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+}
+.accvacinptdesc{
+    position: absolute;
+    top: 34%;
+    font-family: "Raleway";
+    font-size: 20px;
+    height: 200px;
+    color: #555555;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    resize: none;
+}
+.accvacchngdesc{
+    position: absolute;
+    top: 34.2%;
+    left: 70%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    cursor: pointer;
+}
+.accvacchngdesc:hover{
+    border-bottom: 1px solid #555555;
+}
+.accvacsite{
+    position: absolute;
+    top: calc(42% + 200px);
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+}
+.accvacinptsite{
+    position: absolute;
+    top: calc(46% + 200px);
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+}
+.accvacchngsite{
+    position: absolute;
+    top: calc(46.2% + 200px);
+    left: 70%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    cursor: pointer;
+}
+.accvacchngsite:hover{
+    border-bottom: 1px solid #555555;
+}
+.accvacchangepass{
+    position: absolute;
+    top: calc(54% + 200px);
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    cursor: pointer;
+}
+.passesvac{
+    position: absolute;
+    top: calc(58% + 200px);
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+}
+.accvacold{
+    position: absolute;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    font-size: 15px;
+    color: #555555;
+}
+.accvacnew{
+    position: absolute;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    top: 200%;
+    font-family: "Raleway";
+    font-size: 15px;
+    color: #555555;
+}
+.accvacsbmt{
+    position: absolute;
+    outline: none;
+    border: none;
+    top: 90%;
+    left: 25%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #555555;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #555555;
+    transition-duration: .3s;
+    padding: 5px;
+}
+.accvacsbmt:hover{
+    color: white;
+    background: #555555;
+}
+.accvacpos{
+    position: absolute;
+    top: 150px;
+    left: 29%;
+    font-family: "Raleway";
+    font-size: 40px;
+    color: white;
+}
+.accaddvacpos{
+    position: absolute;
+    top: 150px;
+    left: 75%;
+    font-family: "Raleway";
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+.accaddvacpos:hover{
+    border-bottom: 1px solid white;   
+}
+
+.showback{
+    background-image: url("images/show.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.showback1{
+    background-image: url("images/show1.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.showback2{
+    background-image: url("images/show2.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.showpage{
+    position: relative;
+    top: 150px;
+    left: 20%;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333333;
+    font-family: "Raleway";
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.678);
+    padding: 5%;
+    margin-bottom: 100px;
+}
+.right75{
+    position: absolute;
+    right: 75px;
+}
+hr{
+    border: none;
+    color: #666666;
+    background: #666666;
+    height: 1px;
+}
+
+
+.addheader{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-size: 40px;
+    width: 100% ;
+    text-align: center;
+}
+.addrespost{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    background: transparent;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Raleway";
+    color: #555555;
+}
+.addresslr{
+    position: relative;
+    text-align: right;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555555;
+    background: transparent;
+    padding: 7px;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: #555555;
+    left: 10%;
+}
+.addrescrrncy{
+    position: relative;
+    top: 5px;
+    left: calc(10% + 15px);
+    border-bottom: 1px solid #555555;
+    background: transparent;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: #555555;
+    outline: none;
+}
+.addresgender{
+    position: relative;
+    top: -40px;
+    left: 53%;
+}
+.addresdate{
+    position: relative;
+    top: -95px;
+    left: 75.5%;
+}
+.addrescalendar{
+    color: #555555;
+    background: transparent;
+    outline: none;
+    border: 1px solid #555555;
+}
+.addresabout{
+    position: relative;
+    top: -20px;
+    width: 80%;
+    left: 10%;
+    outline: none;
+    border: none;
+    border-right: 1px solid #555555;
+    border-left: 1px solid #555555;
+    background: transparent;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Raleway";
+    color: #555555;
+    height: 200px;
+    resize: none;
+}
+.addresabout::-webkit-scrollbar{
+    width: 7px;
+}
+.addresabout::-webkit-scrollbar-track{
+    background: transparent;
+}
+.addresabout::-webkit-scrollbar-thumb{
+    background: #888; 
+}
+.addresabout::-webkit-scrollbar-thumb:hover{
+    background: #555; 
+}
+.addreswidth{
+    width: 100%;
+    overflow-x: hidden;
+}
+.addreskeyskill{
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+.addresfield{
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+.addresToETT{
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+.addresToE{
+    position: absolute;
+}
+.addresTT{
+    position: absolute;
+    right: 0;
+}
+.eduprof{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.eduinst{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.eduend{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.cursprof{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.cursinst{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.cursend{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.jobcom{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.jobpost{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.jobabo{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.jobtime{
+    position: absolute;
+    right: 35%;
+    color: #555555;
+    background: transparent;
+    outline: none;
+    border: 1px solid #555555;
+}
+.jobend{
+    position: absolute;
+    right: 35%;
+    color: #555555;
+    background: transparent;
+    outline: none;
+    border: 1px solid #555555;
+}
+.jobtimetext{
+    position: absolute;
+    right: 50%;
+}
+.jobendtext{
+    position: absolute;
+    right: 50%;
+}
+.addrescontact{
+    position: relative;
+    left: 10%;
+}
+.addrescontactinpt{
+    border:none;
+    outline:none;
+    background: transparent;
+    border-bottom: 1px solid #555555;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Raleway";
+}
+.addressbmt{
+    position: relative;
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 70px;
+    background: transparent;
+    color: #555555;
+    font-size: 35px;
+    font-family: "Raleway";
+    outline: none;
+    border: 1px solid #555555;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.addressbmt:hover{
+    color: white;
+    background: #555555;
+}
+.updressbmt{
+    position: relative;
+    left: calc(50% - 175px);
+    width: 350px;
+    height: 70px;
+    background: transparent;
+    color: #555555;
+    font-size: 35px;
+    font-family: "Raleway";
+    outline: none;
+    border: 1px solid #555555;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.updressbmt:hover{
+    color: white;
+    background: #555555;
+}
+
+.addvacexp{
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+.addvacexpinpt{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    margin: 0 10px;
+    font-size: 20px;
+    width: 100px;
+}
+
+.addvacaddress{
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+.addvaccountry{
+    position: relative;
+    top: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.addvaccity{
+    position: relative;
+    top: -16.5px;
+    left: 25%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.addvacstreet{
+    position: relative;
+    top: -43px;
+    left: 50%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.addvachouse{
+    position: relative;
+    top: -70px;
+    left: 75%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555555;
+    font-family: "Raleway";
+    background: transparent;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.addvacsbmt{
+    position: relative;
+    left: calc(50% - 150px);
+    width: 330px;
+    height: 70px;
+    background: transparent;
+    color: #555555;
+    font-size: 35px;
+    font-family: "Raleway";
+    outline: none;
+    border: 1px solid #555555;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.addvacsbmt:hover{
+    color: white;
+    background: #555555;
+}
+.updvacsbmt{
+    position: relative;
+    left: calc(50% - 150px);
+    width: 350px;
+    height: 70px;
+    background: transparent;
+    color: #555555;
+    font-size: 35px;
+    font-family: "Raleway";
+    outline: none;
+    border: 1px solid #555555;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.updvacsbmt:hover{
+    color: white;
+    background: #555555;
+}
+
+.withoutnullcom{
+    position: absolute;
+    top: 50px;
+    right: 20%;
+    font-family: "Raleway";
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+    cursor: pointer;
+}
+.withoutnullcom:hover{
+    border-bottom: 1px solid white;
+}
+.inptexp{
+    outline: none;
+    border: none;
+    border-bottom: 1px #9b9b9b solid;
+    font-family: "Raleway";
+    color: #333333;
+    font-size: 20px;
+    width: 80px;
+    background: transparent;
+}
+
+.forcompanydesc{
+    position: relative;
+    display: block;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1720px) {
+    .accaddrespos{
+        top: 155px;
+        left: 75%;
+        font-size: 35px;
+    }
+    .masfields{
+        left: 0px;
+    }
+    .headersearch{
+        width: 345px;
+    }
+    .accaddvacpos{
+        left: 72%;
+    }
+    .addvaccountry{
+        width: 190px;
+    }
+    .addvaccity{
+        width: 190px;
+    }
+    .addvacstreet{
+        width: 190px;
+    }
+    .addvachouse{
+        width: 190px;
+    }
+    .searchmainword{
+        font-size: 20px;
+    }
+    .searchkeyskill{
+        font-size: 20px;
+    }
+    .searchsalaryinpt{
+        font-size: 20px;
+        width: 155px;
+    }
+    .searchsalarycurr{
+        left: -4px;
+        font-size: 20px;
+    }
+    .searchcompany{
+        font-size: 20px;
+    }
+    .searchfield{
+        height: 300px;
+    }
+}
+
+
+
+@media screen and (max-width:1620px) {
+    .headersearch{
+        width: 315px;
+    }
+    .searchfield{
+        height: 350px;
+    }
+}
+
+
+
+@media screen and (max-width:1520px) {
+    .accaccvac{
+        top: 13%;
+        font-size: 12px;
+    }
+    .masfields{
+        left: -100px;
+    }
+    .headersearch{
+        width: 289px;
+    }
+    .accaddvacpos{
+        left: 69%;
+    }
+    .addvaccountry{
+        width: 170px;
+    }
+    .addvaccity{
+        width: 170px;
+    }
+    .addvacstreet{
+        width: 170px;
+    }
+    .addvachouse{
+        width: 170px;
+    }
+    .searchmainword{
+        font-size: 20px;
+    }
+    .searchkeyskill{
+        font-size: 20px;
+    }
+    .searchsalaryinpt{
+        font-size: 20px;
+        width: 155px;
+    }
+    .searchsalarycurr{
+        left: -4px;
+        font-size: 20px;
+    }
+    .searchcompany{
+        font-size: 20px;
+    }
+    .searchfield{
+        height: 330px;
+    }
+    .searchexp{
+        font-size: 12px;
+    }
+    .searchToE{
+        font-size: 12px;
+    }
+    .searchTT{
+        font-size: 12px;
+    }
+    .searchsort{
+        font-size: 12px;
+    }
+    .searchregion{
+        font-size: 12px;
+    }
+    .mainfindtofind{
+        left: 25%;
+    }
+    .mainsearchform{
+        left: 35%;
+    }
+    .accvacinptname{
+        font-size: 17px;
+    }
+    .accvacinptdesc{
+        font-size: 17px;
+    }
+    .accvacinptsite{
+        font-size: 17px;
+    }
+}
+
+
+
+@media screen and (max-width:1420px) {
+    .accrespos{
+        top: 160px;
+        left: 29%;
+        font-size: 30px;
+    }
+    .accaddrespos{
+        top: 160px;
+        left: 75%;
+        font-size: 30px;
+    }
+    .masfields{
+        left: -100px;
+    }
+    .headersearch{
+        width: 284px;
+    }
+    .headertype{
+        font-size: 20px;
+        top: 11px;
+    }
+    .accaddvacpos{
+        top: 155px;
+        font-size: 35px;
+        left: 69%;
+    }
+    .inp{
+        margin-left: 15px;
+    }
+    .addvaccountry{
+        font-size: 17px;
+        width: 160px;
+    }
+    .addvaccity{
+        top: -13px;
+        font-size: 17px;
+        width: 160px;
+    }
+    .addvacstreet{
+        top: -36px;
+        font-size: 17px;
+        width: 160px;
+    }
+    .addvachouse{
+        top: -59px;
+        font-size: 17px;
+        width: 160px;
+    }
+    .searchmainword{
+        font-size: 17px;
+    }
+    .searchkeyskill{
+        font-size: 17px;
+    }
+    .searchsalaryinpt{
+        font-size: 17px;
+        width: 120px;
+    }
+    .searchsalarycurr{
+        left: -4px;
+        font-size: 17px;
+    }
+    .searchcompany{
+        font-size: 17px;
+    }
+    .searchfield{
+        font-size: 12px;
+        height: 300px;
+    }
+    .mainfindtofind{
+        left: 25%;
+    }
+    .mainsearchform{
+        left: 35%;
+    }
+    .accvacinptname{
+        font-size: 17px;
+    }
+    .accvacinptdesc{
+        font-size: 17px;
+    }
+    .accvacinptsite{
+        font-size: 17px;
+    }
+    .noadds{
+        font-size: 80px;
+    }
+}
+
+
+
+@media screen and (max-width:1320px) {
+    .masfields{
+        left: -200px;
+    }
+    .addfind{
+        top: 40px;
+        font-size: 40px;
+    }
+    .headeruser{
+        font-size: 17px;
+        top: 16px;
+    }
+    .extendedsearch{
+        font-size: 17px;
+        top: 16px;
+    }
+    .headersearch{
+        font-size: 17px;
+        width: 270px;
+    }
+    .headersearchsubmit{
+        top: 5px;
+        font-size: 25px;
+    }
+    .headertype{
+        font-size: 17px;
+        top: 15px;
+    }
+    .logo{
+        top: 16px;
+        left: 10px;
+        width: 133px;
+        height: 40px;
+    }
+    .accaddvacpos{
+        top: 160px;
+        font-size: 35px;
+        left: 69%;
+    }
+    .inp{
+        margin-left: 15px;
+    }
+    .addvaccountry{
+        width: 250px;
+        top: 10px;
+        left: 10%;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .addvaccity{
+        width: 250px;
+        top: -16.5px;
+        left: 50%;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .addvacstreet{
+        width: 250px;
+        top: -6.5px;
+        left: 10%;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .addvachouse{
+        width: 250px;
+        top: -30px;
+        left: 50%;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .searchmainword{
+        font-size: 17px;
+    }
+    .searchkeyskill{
+        font-size: 17px;
+    }
+    .searchsalaryinpt{
+        font-size: 17px;
+        width: 120px;
+    }
+    .searchsalarycurr{
+        left: -4px;
+        font-size: 17px;
+    }
+    .searchcompany{
+        font-size: 17px;
+    }
+    .searchfield{
+        font-size: 12px;
+        height: 300px;
+    }
+    .searchexp{
+        top: 170px;
+    }
+    .mainfindtofind{
+        left: 22%;
+    }
+    .mainsearchform{
+        left: 32%;
+    }
+    .accvacinptname{
+        font-size: 17px;
+    }
+    .accvacinptdesc{
+        font-size: 17px;
+    }
+    .accvacinptsite{
+        font-size: 17px;
+    }
+    .noadds{
+        font-size: 80px;
+    }
+    .accvacsbmt{
+        left: 15%;
+    }
+    .accvacchngname{
+        font-size: 17px;
+    }
+    .accvacchngdesc{
+        font-size: 17px;
+    }
+    .accvacchngsite{
+        font-size: 17px;
+    }
+    .accvacpos{
+        top: 160px;
+        font-size: 35px;
+    }
+}
+
+
+
+@media screen and (max-width:1220px) {
+    .addsalary1{
+        right: 12%;
+    }
+    .accaddrespos{
+        top: 160px;
+        left: 70%;
+        font-size: 30px;
+    }
+    .masfields{
+        left: -250px;
+    }
+    .addfind{
+        top: 40px;
+        font-size: 40px;
+    }
+    .headeruser{
+        font-size: 17px;
+        top: 16px;
+    }
+    .extendedsearch{
+        font-size: 17px;
+        top: 16px;
+    }
+    .headersearch{
+        font-size: 17px;
+        width: 241px;
+    }
+    .headersearchsubmit{
+        top: 5px;
+        font-size: 25px;
+    }
+    .headertype{
+        font-size: 17px;
+        top: 15px;
+    }
+    .logo{
+        top: 16px;
+        left: 10px;
+        width: 133px;
+        height: 40px;
+    }
+    .accaddvacpos{
+        top: 160px;
+        font-size: 35px;
+        left: 69%;
+    }
+    .inp{
+        margin-left: 15px;
+    }
+    .addvaccountry{
+        width: 200px;
+        top: 10px;
+        left: 10%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvaccity{
+        width: 200px;
+        top: -16px;
+        left: 50%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvacstreet{
+        width: 200px;
+        top: -7px;
+        left: 10%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvachouse{
+        width: 200px;
+        top: -30px;
+        left: 50%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .searchmainword{
+        font-size: 15px;
+    }
+    .searchkeyskill{
+        font-size: 15px;
+    }
+    .searchsalaryinpt{
+        font-size: 15px;
+        width: 100px;
+    }
+    .searchsalarycurr{
+        left: -4px;
+        font-size: 15px;
+    }
+    .searchcompany{
+        font-size: 15px;
+    }
+    .searchfield{
+        font-size: 10px;
+        height: 300px;
+    }
+    .searchexp{
+        top: 170px;
+    }
+    .mainfindtofind{
+        left: 22%;
+    }
+    .mainsearchform{
+        left: 32%;
+    }
+    .accvacinptname{
+        font-size: 15px;
+    }
+    .accvacinptdesc{
+        font-size: 15px;
+    }
+    .accvacinptsite{
+        font-size: 15px;
+    }
+    .noadds{
+        font-size: 80px;
+    }
+    .accvacsbmt{
+        left: 15%;
+    }
+    .accvacchngname{
+        font-size: 15px;
+    }
+    .accvacchngdesc{
+        font-size: 15px;
+    }
+    .accvacchngsite{
+        font-size: 15px;
+    }
+    .accvacpos{
+        top: 160px;
+        font-size: 35px;
+    }
+    .accname{
+        top: 10%;
+        font-size: 22px;
+    }
+    .accexit{
+        top: 10%;
+        font-size: 22px;
+    }
+    .accacc{
+        top: 13.5%;
+        font-size: 12px;
+    }
+    .showpage{
+        font-size: 15px;
+    }
+    .searchToE{
+        font-size: 10px;
+    }
+    .searchTT{
+        font-size: 10px;
+    }
+    .searchsort{
+        font-size: 10px;
+    }
+    .searchregion{
+        font-size: 10px;
+    }
+}
+
+
+
+@media screen and (max-width:1120px) {
+    .masfields{
+        left: -300px;
+    }
+    .addfind{
+        top: 50px;
+        font-size: 30px;
+    }
+    .headeruser{
+        font-size: 17px;
+        top: 16px;
+        left: 85%;
+    }
+    .extendedsearch{
+        font-size: 17px;
+        top: 16px;
+    }
+    .headersearch{
+        font-size: 17px;
+        width: 214px;
+    }
+    .headersearchsubmit{
+        top: 5px;
+        font-size: 25px;
+    }
+    .headertype{
+        font-size: 17px;
+        top: 15px;
+    }
+    .logo{
+        top: 16px;
+        left: 10px;
+        width: 133px;
+        height: 40px;
+    }
+    .accaddvacpos{
+        top: 170px;
+        font-size: 30px;
+        left: 69%;
+    }
+    .inp{
+        margin-left: 15px;
+    }
+    .addvaccountry{
+        width: 200px;
+        top: 10px;
+        left: 10%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvaccity{
+        width: 200px;
+        top: -16px;
+        left: 50%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvacstreet{
+        width: 200px;
+        top: -7px;
+        left: 10%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvachouse{
+        width: 200px;
+        top: -30px;
+        left: 50%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .searchmainword{
+        font-size: 15px;
+    }
+    .searchkeyskill{
+        font-size: 15px;
+    }
+    .searchsalaryinpt{
+        font-size: 15px;
+        width: 100px;
+    }
+    .searchsalarycurr{
+        left: -4px;
+        font-size: 15px;
+    }
+    .searchcompany{
+        font-size: 15px;
+    }
+    .searchfield{
+        font-size: 10px;
+        height: 300px;
+    }
+    .searchexp{
+        top: 170px;
+    }
+    .mainfindtofind{
+        left: 18%;
+    }
+    .mainsearchform{
+        left: 32%;
+    }
+    .accvacinptname{
+        font-size: 15px;
+    }
+    .accvacinptdesc{
+        font-size: 15px;
+    }
+    .accvacinptsite{
+        font-size: 15px;
+    }
+    .noadds{
+        font-size: 60px;
+    }
+    .accvacsbmt{
+        left: 10%;
+    }
+    .accvacchngname{
+        font-size: 15px;
+    }
+    .accvacchngdesc{
+        font-size: 15px;
+    }
+    .accvacchngsite{
+        font-size: 15px;
+    }
+    .accvacpos{
+        top: 170px;
+        font-size: 30px;
+    }
+    .accname{
+        top: 10%;
+        font-size: 22px;
+    }
+    .accexit{
+        top: 10%;
+        font-size: 22px;
+    }
+    .accacc{
+        top: 13.5%;
+        font-size: 12px;
+    }
+    .showpage{
+        font-size: 15px;
+    }
+    .searchToE{
+        font-size: 10px;
+    }
+    .searchTT{
+        font-size: 10px;
+    }
+    .searchsort{
+        font-size: 10px;
+    }
+    .searchregion{
+        font-size: 10px;
+    }
+    .addsearch{
+        top: 60px;
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 25px;
+    }
+    .forupdate{
+        left: 36%;
+    }
+    .fordelete{
+        left: 55%;
+    }
+}
+
+
+
+@media screen and (max-width:1020px) {
+
+    .masfields{
+        left: -360px;
+    }
+    .addfind{
+        top: 50px;
+        font-size: 30px;
+    }
+    .headeruser{
+        font-size: 17px;
+        top: 16px;
+        left: 85%;
+    }
+    .extendedsearch{
+        font-size: 17px;
+        top: 16px;
+    }
+    .headersearch{
+        left: 6%;
+        font-size: 17px;
+        width: 178px;
+    }
+    .headersearchsubmit{
+        top: 5px;
+        font-size: 25px;
+    }
+    .headertype{
+        font-size: 17px;
+        top: 15px;
+    }
+    .logo{
+        top: 16px;
+        left: 10px;
+        width: 133px;
+        height: 40px;
+    }
+    .accaddvacpos{
+        top: 170px;
+        font-size: 25px;
+        left: 69%;
+    }
+    .inp{
+        margin-left: 15px;
+    }
+    .addvaccountry{
+        width: 180px;
+        top: 10px;
+        left: 10%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvaccity{
+        width: 180px;
+        top: -13px;
+        left: 50%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvacstreet{
+        width: 180px;
+        top: -7px;
+        left: 10%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvachouse{
+        width: 180px;
+        top: -30px;
+        left: 50%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .searchmainword{
+        top: 4%;
+        font-size: 29px;
+    }
+    .searchkeyskill{
+        top: 11%;
+        font-size: 29px;
+    }
+    .searchsalaryinpt{
+        font-size: 29px;
+        width: 225px;
+    }
+    .searchsalarycurr{
+        left: -4px;
+        font-size: 29px;
+    }
+    .searchsalary{
+        top: 19%;
+    }
+    .searchcompany{
+        top: 28%;
+        font-size: 29px;
+    }
+    .searchfield{
+        font-size: 17px;
+        top: 4%;
+        left: 52%;
+        height: 260px;
+        width: 40%;
+    }
+    .searchexp{
+        font-size: 17px;
+        top: 46%;
+        left: 3%;
+    }
+    .mainfindtofind{
+        font-size: 100px;
+        left: 27%;
+    }
+    .mainsearchform{
+        top: 50%;
+        left: 33%;
+    }
+    .accvacinptname{
+        font-size: 13px;
+    }
+    .accvacinptdesc{
+        font-size: 13px;
+    }
+    .accvacinptsite{
+        font-size: 13px;
+    }
+    .noadds{
+        font-size: 60px;
+    }
+    .accvacsbmt{
+        left: 5%;
+    }
+    .accvacchngname{
+        font-size: 15px;
+    }
+    .accvacchngdesc{
+        font-size: 15px;
+    }
+    .accvacchngsite{
+        font-size: 15px;
+    }
+    .accvacpos{
+        top: 170px;
+        font-size: 25px;
+    }
+    .accname{
+        top: 10%;
+        font-size: 20px;
+    }
+    .accexit{
+        top: 10%;
+        font-size: 20px;
+    }
+    .accacc{
+        top: 13.5%;
+        font-size: 12px;
+    }
+    .showpage{
+        font-size: 15px;
+    }
+    .searchToE{
+        font-size: 17px;
+        top: 33%;
+        left: 52.5%;
+    }
+    .searchTT{
+        font-size: 17px;
+        top: 48%;
+        left: 52.5%;
+    }
+    .searchsort{
+        font-size: 17px;
+        top: 62%;
+        left: 52.5%;
+    }
+    .searchregion{
+        font-size: 17px;
+        top: 37%;
+        left: 3%;
+    }
+    .addsearch{
+        top: 60px;
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 25px;
+    }
+    .forupdate{
+        left: 36%;
+    }
+    .fordelete{
+        left: 55%;
+    }
+    .mainsearchform > .textbox {
+        height: 40px;
+        width: 350px;
+        line-height: 35px;
+    }
+    .mainsearchform > .button {
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+    }
+    .accvacname{
+        font-size: 17px;
+    }
+    .accvacdesc{
+        font-size: 17px;
+    }
+    .accvacsite{
+        font-size: 17px;
+    }
+    .accvacchangepass{
+        font-size: 17px;
+    }
+    .searchline1{
+        display: none;
+    }
+    .searchline2{
+        top: 3%;
+        height: 75%;
+    }
+    .searchline3{
+        display: none;
+    }
+    .searchpage{
+        height: 140%;
+        margin-bottom: 100px;
+    }
+    .searchsbmt{
+        top: 85%;
+    }
+    .accsbmt{
+        left: 4%;
+    }
+}
+
+
+
+@media screen and (max-width:920px) {
+    .masfields{
+        left: -382.5px;
+    }
+    .addfind{
+        top: 50px;
+        font-size: 30px;
+    }
+    .headeruser{
+        font-size: 17px;
+        top: 16px;
+        left: 85%;
+    }
+    .extendedsearch{
+        font-size: 17px;
+        top: 16px;
+    }
+    .headersearch{
+        left: 6%;
+        font-size: 17px;
+        width: 165px;
+    }
+    .headersearchsubmit{
+        top: 5px;
+        font-size: 25px;
+    }
+    .headertype{
+        font-size: 17px;
+        top: 15px;
+    }
+    .logo{
+        top: 16px;
+        left: 10px;
+        width: 133px;
+        height: 40px;
+    }
+    .accaddvacpos{
+        top: 170px;
+        font-size: 25px;
+        left: 69%;
+    }
+    .inp{
+        margin-left: 15px;
+    }
+    .addvaccountry{
+        width: 180px;
+        top: 10px;
+        left: 10%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvaccity{
+        width: 180px;
+        top: -13px;
+        left: 50%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvacstreet{
+        width: 180px;
+        top: -7px;
+        left: 10%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .addvachouse{
+        width: 180px;
+        top: -30px;
+        left: 50%;
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    .searchmainword{
+        top: 4%;
+        font-size: 29px;
+    }
+    .searchkeyskill{
+        top: 11%;
+        font-size: 29px;
+    }
+    .searchsalaryinpt{
+        font-size: 29px;
+        width: 225px;
+    }
+    .searchsalarycurr{
+        left: -4px;
+        font-size: 29px;
+    }
+    .searchsalary{
+        top: 19%;
+    }
+    .searchcompany{
+        top: 28%;
+        font-size: 29px;
+    }
+    .searchfield{
+        font-size: 17px;
+        top: 4%;
+        left: 52%;
+        height: 280px;
+        width: 40%;
+    }
+    .searchexp{
+        font-size: 17px;
+        top: 46%;
+        left: 3%;
+    }
+    .mainfindtofind{
+        font-size: 100px;
+        left: 27%;
+    }
+    .mainsearchform{
+        top: 50%;
+        left: 33%;
+    }
+    .accvacinptname{
+        font-size: 13px;
+    }
+    .accvacinptdesc{
+        font-size: 13px;
+    }
+    .accvacinptsite{
+        font-size: 13px;
+    }
+    .noadds{
+        font-size: 60px;
+    }
+    .accvacsbmt{
+        left: 5%;
+    }
+    .accvacchngname{
+        font-size: 15px;
+    }
+    .accvacchngdesc{
+        font-size: 15px;
+    }
+    .accvacchngsite{
+        font-size: 15px;
+    }
+    .accvacpos{
+        top: 170px;
+        font-size: 25px;
+    }
+    .accname{
+        top: 10%;
+        font-size: 20px;
+    }
+    .accexit{
+        top: 10%;
+        font-size: 20px;
+    }
+    .accacc{
+        top: 13.5%;
+        font-size: 12px;
+    }
+    .showpage{
+        font-size: 15px;
+    }
+    .searchToE{
+        font-size: 17px;
+        top: 33%;
+        left: 52.5%;
+    }
+    .searchTT{
+        font-size: 17px;
+        top: 48%;
+        left: 52.5%;
+    }
+    .searchsort{
+        font-size: 17px;
+        top: 62%;
+        left: 52.5%;
+    }
+    .searchregion{
+        font-size: 17px;
+        top: 37%;
+        left: 3%;
+    }
+    .addsearch{
+        top: 60px;
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 25px;
+    }
+    .forupdate{
+        left: 36%;
+    }
+    .fordelete{
+        left: 55%;
+    }
+    .mainsearchform > .textbox {
+        height: 40px;
+        width: 350px;
+        line-height: 35px;
+    }
+    .mainsearchform > .button {
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+    }
+    .accvacname{
+        font-size: 17px;
+    }
+    .accvacdesc{
+        font-size: 17px;
+    }
+    .accvacsite{
+        font-size: 17px;
+    }
+    .accvacchangepass{
+        font-size: 17px;
+    }
+    .searchline1{
+        display: none;
+    }
+    .searchline2{
+        top: 3%;
+        height: 75%;
+    }
+    .searchline3{
+        display: none;
+    }
+    .searchpage{
+        height: 140%;
+        margin-bottom: 100px;
+    }
+    .searchsbmt{
+        top: 85%;
+    }
+    .updvacsbmt{
+        left: 15%;
+    }
+}
+
